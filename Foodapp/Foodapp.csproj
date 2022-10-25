@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{837F8D6B-4A5F-4132-9F65-EFB59E20526E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Foodapp</RootNamespace>
+    <AssemblyName>Foodapp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Appetizers_el.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Appetizers_el.Designer.cs">
+      <DependentUpon>Appetizers_el.cs</DependentUpon>
+    </Compile>
+    <Compile Include="beverages_mf.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="beverages_mf.Designer.cs">
+      <DependentUpon>beverages_mf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="biriyani_empire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="biriyani_empire.Designer.cs">
+      <DependentUpon>biriyani_empire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="breakfast_gb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="breakfast_gb.Designer.cs">
+      <DependentUpon>breakfast_gb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="burger_gb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="burger_gb.Designer.cs">
+      <DependentUpon>burger_gb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cake_gb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cake_gb.Designer.cs">
+      <DependentUpon>cake_gb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="coldbeverages_gb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="coldbeverages_gb.Designer.cs">
+      <DependentUpon>coldbeverages_gb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="continental_el.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="continental_el.Designer.cs">
+      <DependentUpon>continental_el.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desserts_empire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Desserts_empire.Designer.cs">
+      <DependentUpon>Desserts_empire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drinks_empire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Drinks_empire.Designer.cs">
+      <DependentUpon>Drinks_empire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Elchico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Elchico.Designer.cs">
+      <DependentUpon>Elchico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empire.Designer.cs">
+      <DependentUpon>Empire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Glens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Glens.Designer.cs">
+      <DependentUpon>Glens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="icecream_el.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="icecream_el.Designer.cs">
+      <DependentUpon>icecream_el.cs</DependentUpon>
+    </Compile>
+    <Compile Include="khaosuey.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="khaosuey.Designer.cs">
+      <DependentUpon>khaosuey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mbiriyani_mf.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="mbiriyani_mf.Designer.cs">
+      <DependentUpon>mbiriyani_mf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="meghanafoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="meghanafoods.Designer.cs">
+      <DependentUpon>meghanafoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nonveg starters_mf.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="nonveg starters_mf.Designer.cs">
+      <DependentUpon>nonveg starters_mf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="noodles_Wc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="noodles_Wc.Designer.cs">
+      <DependentUpon>noodles_Wc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pasta_el.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pasta_el.Designer.cs">
+      <DependentUpon>pasta_el.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pizza_gb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pizza_gb.Designer.cs">
+      <DependentUpon>pizza_gb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Restaurants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Restaurants.Designer.cs">
+      <DependentUpon>Restaurants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salads_empire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="salads_empire.Designer.cs">
+      <DependentUpon>salads_empire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="soups_wc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="soups_wc.Designer.cs">
+      <DependentUpon>soups_wc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Starters_empire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Starters_empire.Designer.cs">
+      <DependentUpon>Starters_empire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="starter_wc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="starter_wc.Designer.cs">
+      <DependentUpon>starter_wc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="veg starters_mf.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="veg starters_mf.Designer.cs">
+      <DependentUpon>veg starters_mf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wow China.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wow China.Designer.cs">
+      <DependentUpon>Wow China.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Appetizers_el.resx">
+      <DependentUpon>Appetizers_el.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="beverages_mf.resx">
+      <DependentUpon>beverages_mf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="biriyani_empire.resx">
+      <DependentUpon>biriyani_empire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="breakfast_gb.resx">
+      <DependentUpon>breakfast_gb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="burger_gb.resx">
+      <DependentUpon>burger_gb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cake_gb.resx">
+      <DependentUpon>cake_gb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="coldbeverages_gb.resx">
+      <DependentUpon>coldbeverages_gb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="continental_el.resx">
+      <DependentUpon>continental_el.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desserts_empire.resx">
+      <DependentUpon>Desserts_empire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drinks_empire.resx">
+      <DependentUpon>Drinks_empire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Elchico.resx">
+      <DependentUpon>Elchico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empire.resx">
+      <DependentUpon>Empire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Glens.resx">
+      <DependentUpon>Glens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icecream_el.resx">
+      <DependentUpon>icecream_el.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="khaosuey.resx">
+      <DependentUpon>khaosuey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mbiriyani_mf.resx">
+      <DependentUpon>mbiriyani_mf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="meghanafoods.resx">
+      <DependentUpon>meghanafoods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nonveg starters_mf.resx">
+      <DependentUpon>nonveg starters_mf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="noodles_Wc.resx">
+      <DependentUpon>noodles_Wc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pasta_el.resx">
+      <DependentUpon>pasta_el.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pizza_gb.resx">
+      <DependentUpon>pizza_gb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Restaurants.resx">
+      <DependentUpon>Restaurants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salads_empire.resx">
+      <DependentUpon>salads_empire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="soups_wc.resx">
+      <DependentUpon>soups_wc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Starters_empire.resx">
+      <DependentUpon>Starters_empire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="starter_wc.resx">
+      <DependentUpon>starter_wc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="veg starters_mf.resx">
+      <DependentUpon>veg starters_mf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wow China.resx">
+      <DependentUpon>Wow China.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
