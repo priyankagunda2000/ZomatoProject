@@ -1,0 +1,14 @@
+C:\Users\anamtripathi\Desktop\New folder\Food\bin\Debug\Food.exe.config
+C:\Users\anamtripathi\Desktop\New folder\Food\bin\Debug\Food.exe
+C:\Users\anamtripathi\Desktop\New folder\Food\bin\Debug\Food.pdb
+C:\Users\anamtripathi\Desktop\New folder\Food\obj\Debug\Food.csproj.AssemblyReference.cache
+C:\Users\anamtripathi\Desktop\New folder\Food\obj\Debug\Food.csproj.SuggestedBindingRedirects.cache
+C:\Users\anamtripathi\Desktop\New folder\Food\obj\Debug\Food.Form1.resources
+C:\Users\anamtripathi\Desktop\New folder\Food\obj\Debug\Food.Properties.Resources.resources
+C:\Users\anamtripathi\Desktop\New folder\Food\obj\Debug\Food.csproj.GenerateResource.cache
+C:\Users\anamtripathi\Desktop\New folder\Food\obj\Debug\Food.csproj.CoreCompileInputs.cache
+C:\Users\anamtripathi\Desktop\New folder\Food\obj\Debug\Food.exe
+C:\Users\anamtripathi\Desktop\New folder\Food\obj\Debug\Food.pdb
+C:\Users\anamtripathi\Desktop\New folder\Food\obj\Debug\Food.Form2.resources
+C:\Users\anamtripathi\Desktop\New folder\Food\obj\Debug\Food.Form3.resources
+C:\Users\anamtripathi\Desktop\New folder\Food\obj\Debug\Food.Form4.resources
