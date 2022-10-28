@@ -1,0 +1,14 @@
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\bin\Debug\RestaurantRegistration.exe.config
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\bin\Debug\RestaurantRegistration.exe
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\bin\Debug\RestaurantRegistration.pdb
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\obj\Debug\RestaurantRegistration.csproj.AssemblyReference.cache
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\obj\Debug\RestaurantRegistration.csproj.SuggestedBindingRedirects.cache
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\obj\Debug\RestaurantRegistration.Form1.resources
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\obj\Debug\RestaurantRegistration.Properties.Resources.resources
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\obj\Debug\RestaurantRegistration.csproj.GenerateResource.cache
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\obj\Debug\RestaurantRegistration.csproj.CoreCompileInputs.cache
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\obj\Debug\RestaurantRegistration.exe
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\obj\Debug\RestaurantRegistration.pdb
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\bin\Debug\System.Data.SqlClient.dll
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\bin\Debug\System.Data.SqlClient.xml
+C:\Users\RiSingh\source\repos\RestaurantRegistration\RestaurantRegistration\obj\Debug\RestaurantRegistration.csproj.CopyComplete
